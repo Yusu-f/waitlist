@@ -2590,7 +2590,7 @@ p {
 .picture {
   z-index: 9;
   background-color: #cee7f8;
-  background-image: url("./assets/imgs/call-of-duty-1.gif");
+  background-image: url("./assets/imgs//fornite-img.jpg");
   background-position: 50%;
   background-size: cover;
   width: 360px;
@@ -2830,7 +2830,7 @@ p {
 .picture-2 {
   z-index: 0;
   background-color: #41a9f0;
-  background-image: url("./assets/imgs/rocket-league-1.gif");
+  background-image: url("./assets/imgs/minecraft-image.webp");
   background-position: 50%;
   background-size: cover;
   width: 360px;
@@ -2851,7 +2851,7 @@ p {
 }
 
 .picture-3 {
-  background-image: url("./assets/imgs/fifa-1.gif");
+  background-image: url("./assets/imgs/fifa-img.jpg");
   background-position: 0 0;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2861,7 +2861,7 @@ p {
 }
 
 .picture-4 {
-  background-image: url("./assets/imgs/league-of-legends-1.gif");
+  background-image: url("./assets/imgs/league-of-legends-img.jpg");
   background-position: 0 0;
   background-size: cover;
   width: 360px;
@@ -2873,7 +2873,7 @@ p {
 }
 
 .picture-5 {
-  background-image: url("./assets/imgs/fortnite-1.gif");
+  background-image: url("./assets/imgs/rocket-league-img.jpg");
   background-position: 0 0;
   background-size: cover;
   width: 360px;
@@ -2885,7 +2885,7 @@ p {
 }
 
 .picture-6 {
-  background-image: url("./assets/imgs/dota-2-1.gif");
+  background-image: url("./assets/imgs/wow-image.jpg");
   background-position: 0 0;
   background-size: cover;
   width: 360px;
@@ -3060,7 +3060,7 @@ p {
 .pic-expand._05 {
   z-index: 35;
   background-color: #d0156c;
-  background-image: url("./assets/imgs/valorant-img.jpg");
+  background-image: url("./assets/imgs/valorant-img.webp");
   background-position: 0 0;
   background-size: cover;
   top: 0;
@@ -4581,7 +4581,7 @@ p {
   flex-direction: column;
   gap: 0.75rem;
   position: relative;
-  z-index: 100;
+  z-index: 10000;
 }
 
 .waitlist-input {
@@ -4714,5 +4714,10 @@ p {
   .logo__img {
     width: 60px;
   }
+}
+
+.loader__wrapper,
+.mask-load {
+  pointer-events: none !important;
 }
 
