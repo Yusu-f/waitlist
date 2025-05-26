@@ -4050,7 +4050,7 @@ p {
   }
 
   .pic-expand._02 {
-    background-image: url("https://cdn.prod.website-files.com/5c6648378238e311a00c7e61/5c6d9f3b4960695eb4ec7e63_grid-65.jpeg");
+    background-image: url("./assets/imgs/valorant-img.webp");
     background-size: auto;
     height: 180px;
   }
@@ -4719,5 +4719,15 @@ p {
 .loader__wrapper,
 .mask-load {
   pointer-events: none !important;
+}
+
+.privacy-footer {
+  text-align: left;
+  margin: 48px 0 24px 0;
+  padding: 16px 20px;
+  font-size: 0.95em;
+  background-color: #1f1f1f;
+  border-radius: 8px;
+  color: #fff;
 }
 
